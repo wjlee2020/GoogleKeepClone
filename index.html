@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap"
+    />
+    <title>Google Keep Clone</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img
+          src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png"
+          alt="lightbulb sticky note"
+          class="header-logo"
+        />
+        <h2 class="header-title">Keep</h2>
+      </header>
+      <div id="form-container">
+        <form action="" id="form" autocomplete="off">
+          <input id="note-title" type="text" placeholder="Title" />
+          <input id="note-text" type="text" placeholder="Take a note..." />
+          <div id="form-buttons">
+            <button id="submit-button" type="submit">submit</button>
+            <button id="form-close-button" type="button">Close</button>
+          </div>
+        </form>
+      </div>
+      <div id="notes"></div>
+      <div id="placeholder">
+        <img
+          id="placeholder-logo"
+          src="https://icon.now.sh/lightbulb_outline"
+          alt=""
+        />
+        <p id="placeholder-text">Notes you add appear here</p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
